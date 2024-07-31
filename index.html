@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/ak.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Atelier Karla</title>
+</head>
+
+<body class="body">
+    <main>
+        <div>
+            <div class="trademark">
+                <div class="a-surogat" onclick="goToHome()">
+                    <img src="./images/burger-menu.svg" onclick="openMobileNavigation()" class="burger-menu" alt="">
+                    <span class="atelier-td">atelier</span>
+                    <span class="karla-td">KARLA</span>
+                    <span class="abbreviated-trademark-a">aK</span></span>
+
+                </div>
+            </div>
+
+            <!-- HOME FREEZABLE-->
+            <div class="content-div-cover freezed a-section">
+                <div class="cover-letters-and-void-button">
+                    <div class="first-perspective">A New Perspective</div>
+                    <div class="second-perspective">A New Perspective</div>
+                    <div class="third-perspective">A New Perspective</div>
+                    <a href="https://tristotrojka.org/" target="_blank" class="underline">
+                        <div class="button">ENTER THE VOID</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENT SCROLLABLE -->
+        <div class="scrollable b-section display-none">
+            <div class="contentDiv about">
+                <div class="about-top">
+                    <div>
+                        <div class="what">WHAT</div>
+                        <div class="is">IS</div>
+                        <div class="akbundler">
+                            <span class="atelier-td-about">atelier</span>
+                            <span class="karla-td-about">KARLA</span>
+                            <span class="abbreviated-trademark-a">aK</span>
+                            <span class="question-mark">?</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-bottom">
+                <div class="about-content">
+                    <p>
+                        atelierKARLA offers a new approach to branding and space design. If you have
+                        an idea but it is not sufficiently developed, contact me and together we can make it
+                        happen!
+                        Through
+                        the concepts and of manual sketches, brainstorming and various ideas related to project
+                        management,
+                        we can design your perfect space in which you will carry on with your job or everyday
+                        life.
+                        You
+                        will
+                        be able to see initial interior sketches and plans, contact us for renovation or
+                        projects of
+                        small
+                        houses and offices. we also do urban site planning and analysis (as large scale
+                        projects),
+                        as
+                        well
+                        as branding and logo design.
+                    </p>
+                </div>
+                <img class="card-img blur-img" src="./images/karla.jpg" alt="">
+            </div>
+
+            <div class="content-div-projects">
+                <div class="header-div">
+                    <div class="previous">PREVIOUS<br>PROJECTS</div>
+
+                </div>
+                <div class="card-div">
+                    <div class="card card-one">
+                        <div class="card-header1">
+                            <div>1:1</div>
+                            <div>INITIAL SKETCHES</div>
+                        </div>
+                        <img class="card-img" src="./images/galerija-drawing.jpg" alt="">
+                        <div onclick="goToInitialSketches()" class="btn card-button1">ENTER</div>
+                    </div>
+                    <div class="card card-two">
+                        <div class="card-header2">
+                            <div>1:2</div>
+                            <div>INTERIOR PROJECTS</div>
+                        </div>
+                        <img class="card-img" src="./images/living-room.jpg" alt="">
+                        <div onclick="goToInteriorProjects()" class="btn card-button2">ENTER</div>
+                    </div>
+                    <div class="card card-three">
+                        <div class="card-header3">
+                            <div>1:3</div>
+                            <div>HOUSING</div>
+                        </div>
+                        <img class="card-img" src="./images/house.jpg" alt="">
+                        <div onclick="goToHousing()" class="btn card-button3">ENTER</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-div-offerings">
+
+                <img src="./images/offerings-2.webp" class="offerings-vertical">
+                <div class="header-div mobile-offerings">
+                    <div class="previous">OFFERINGS</div>
+
+                </div>
+                <div class="offerings-text-arrow">
+                    <p>as we know, if we want something good, we must trust the process. therefore, we know how to
+                        organize thoughts and wishesh to make way for them to happen.
+                    </p>
+                    <br>
+                    <p>because of this, we start our work with small talk, then proceed to sketching ideas and
+                        brainstorm and then continue step by step towards finishing line.</p>
+                    <img class="arrow-down" src="./images/arrow-down.svg" alt="">
+                </div>
+            </div>
+            <div class="sketches-background">
+                <div class=>
+                    <div class="header-div sketches-header">
+                        <div class="sketches">DIGITAL<br>SKETCHES</div>
+                    </div>
+                    <div class="carousel">
+                        <img src="./images/arrow-left.svg" class="left-direction cr-arrow arr-mobile"
+                            onclick="moveCarouselLeft()" alt="">
+                        <img onclick="goToTextRegardingPhoto(src); goToText()"
+                            src="./images/offeringsDigital-sketches.jpg" class="carlousel-img" alt="">
+                        <img src="./images/arrow-right.svg" class="right-direction cr-arrow arr-mobile"
+                            onclick="moveCarouselRight()" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <footer class="footer contact">
+                <div onclick="goToContactForm()" class="contact-div">CONTACT ME @</div>
+                <div class="icon-div">
+                    <img class="icons" src="./images/call-icon.svg" alt="">
+                    <img class="icons" src="./images/email-round-solid-icon.svg" alt="">
+                    <img class="icons" src="./images/zoom-call-icon.svg" alt="">
+                    <img class="icons" src="./images/google-messages-icon.svg" alt="">
+            </footer>
+        </div>
+
+        <!-- fantom pages -->
+        <div class="initial-sketches display-none">
+            <div class="init-sketches">
+                <div class="init-sketches-header mobile-ds">
+                    <div>INITIAL</div>
+                    <div>SKETCHES</div>
+                </div>
+
+                <div class="carousel">
+                    <img src="./images/arrow-left.svg" class="left-direction cr-arrow"
+                        onclick="moveProjectsCarouselLeft()" alt="">
+                    <div class="centered-photo-and-text"> <img src="./images/urban.jpg" class="projects-carousel-img"
+                            alt="">
+                        <div class="crsl-text">in our PREVIOUS PROJECTS section you can see what is the proess that we
+                            go through .
+                            firstly we
+                            make
+                            initial sketches to make clear what is the goal that we are aiming to gain . after
+                            making
+                            initial
+                            sketches you can see interiors of cozy atmosphere and practical use and after all you
+                            can
+                            see
+                            exterior
+                            of houses and buildings. we can go back and forth with the process of making interior
+                            and
+                            exterior
+                            to
+                            make perfect balance and coexistance within eachother.
+                        </div>
+                    </div>
+
+                    <img src="./images/arrow-right.svg" class="right-direction cr-arrow"
+                        onclick="moveProjectsCarouselRight()" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="interior-projects display-none">
+            <div class="interior-projects-abr">
+                <div class="interior-projects-header">
+                    <div>INTERIOR</div>
+                    <div>PROJECTS</div>
+                </div>
+                <div class="carousel">
+                    <img src="./images/arrow-left.svg" class="left-direction cr-arrow"
+                        onclick="moveInteriorProjectsCarouselLeft()" alt="">
+                    <div class="centered-photo-and-text">
+                        <img src="./images/khousekitchen.jpg" class="interior-projects-carousel-img" alt="">
+                        <div class="crsl-text">in our PREVIOUS PROJECTS section you can see what is the proess that we
+                            go through .
+                            firstly we
+                            make
+                            initial sketches to make clear what is the goal that we are aiming to gain . after
+                            making
+                            initial
+                            sketches you can see interiors of cozy atmosphere and practical use and after all you
+                            can
+                            see
+                            exterior
+                            of houses and buildings. we can go back and forth with the process of making interior
+                            and
+                            exterior
+                            to
+                            make perfect balance and coexistance within eachother.
+                        </div>
+                    </div>
+
+                    <img src="./images/arrow-right.svg" class="right-direction cr-arrow"
+                        onclick="moveInteriorProjectsCarouselRight()" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="housing display-none">
+            <div class="housing-abr">
+                <div class="housing-header">
+                    <div>HOUSING</div>
+                </div>
+                <div class="carousel">
+                    <img src="./images/arrow-left.svg" class="left-direction cr-arrow"
+                        onclick="moveHousingCarouselLeft()" alt="">
+                    <div class="centered-photo-and-text">
+                        <img src="./images/vienna.jpg" class="housing-carousel-img" alt="">
+                        <div class="crsl-text">in our PREVIOUS PROJECTS section you can see what is the proess that we
+                            go through .
+                            firstly we
+                            make
+                            initial sketches to make clear what is the goal that we are aiming to gain . after
+                            making
+                            initial
+                            sketches you can see interiors of cozy atmosphere and practical use and after all you
+                            can
+                            see
+                            exterior
+                            of houses and buildings. we can go back and forth with the process of making interior
+                            and
+                            exterior
+                            to
+                            make perfect balance and coexistance within eachother.
+                        </div>
+                    </div>
+                    <img src="./images/arrow-right.svg" class="right-direction cr-arrow"
+                        onclick="moveHousingCarouselRight()" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="digital-sketches-details display-none">
+            <div class="digital-sketches-details-abr">
+                <div class="digital-sketches-details-header">
+                    <div>DIGITAL</div>
+                    <div>SKETCHES</div>
+                </div>
+                <div class="carousel">
+                    <img src="./images/arrow-left.svg" class="left-direction cr-arrow" onclick="moveTextCarouselLeft()"
+                        alt="">
+                    <div class="centered-photo-and-text">
+                        <img src="" class="digital-sketches-carousel-details-img" alt="">
+                        <p class="text-placeholder"></p>
+                    </div>
+
+                    <img src="./images/arrow-right.svg" class="right-direction cr-arrow"
+                        onclick="moveTextCarouselRight()" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div onclick="removeForm()" class="backdrop display-none">
+            <div class="form-container">
+                <div class="x-wrapper">
+                    <img onclick="removeForm()" src="./images/close-red.svg" class="close-mobile-icon xsmall" alt="">
+                </div>
+
+                <h2>CONTACT ME</h2>
+                <form onsubmit="alert('Message successfully sent. Thank you')" method=" post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button class="sbmt-btn" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+        </div>
+    </main>
+    <div class="navigation" onmouseleave="resetToDefault()">
+        <div class="list link" onclick="goToHome()" onmouseover="changeColorOnHover('HOME')">HOME</div>
+        <div class="list link" onclick="goToAbout()" onmouseover="changeColorOnHover('ABOUT')">ABOUT</div>
+        <div class="list link" onclick="goToProjects()" onmouseover="changeColorOnHover('PROJECTS')">PROJECTS</div>
+        <div class="list link" onclick="goToOfferings()" onmouseover="changeColorOnHover('OFFERINGS')">OFFERINGS</div>
+        <div class="list link" onclick="goToContact()" onmouseover="changeColorOnHover('CONTACT')">CONTACT</div>
+    </div>
+
+    <div class="backdrop-navigation display-none">
+        <div class="x-icon">
+            <img onclick="closeMobileNavigation()" src="./images/close-tab-svgrepo-com.svg" class="close-mobile-icon"
+                alt="">
+        </div>
+        <div class="navigation-mobile" onmouseleave="resetToDefault()">
+            <div class="" onclick="closeMobileNavigation(); goToHome()">HOME</div>
+            <div class="" onclick="goToAbout()">ABOUT</div>
+            <div class="" onclick="goToProjects()">PROJECTS
+            </div>
+            <div class="" onclick=" goToOfferings()">OFFERINGS
+            </div>
+            <div class="" onclick="goToContact()">CONTACT</div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./scripts/navigation-go-to.js"></script>
+
+    <script src="./scripts/navigation-hover.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/initial-sketches-carousel.js"></script>
+    <script src="./scripts/housing-carousel.js"></script>
+    <script src="./scripts/interior-projects-carousel.js"></script>
+    <script src="./scripts/text-carousel.js"></script>
+
+</body>
+
+</html>
