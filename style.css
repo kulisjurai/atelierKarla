@@ -14,7 +14,7 @@
 }
 
 .navigation {
-    height: 88vh;
+    height: 100vh;
     display: flex;
     width: 5vw;
     flex-direction: column;
