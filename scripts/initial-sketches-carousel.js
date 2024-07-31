@@ -6,7 +6,7 @@ var centralImageInitialSketches = document.querySelector('.projects-carousel-img
 function moveProjectsCarouselLeft() {
     index--
     if (index == -1) {
-        index = 2;
+        index = albumInitialSketches.length - 1;
     }
     centralImageInitialSketches.src = './images/' + albumInitialSketches[index]
 }

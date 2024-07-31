@@ -6,7 +6,7 @@ var centralImageMain = document.querySelector('.carlousel-img');
 function moveCarouselLeft() {
     index--
     if (index == -1) {
-        index = 2;
+        index = mainSketchesCarousel.length - 1;
     }
     centralImageMain.src = './images/' + mainSketchesCarousel[index]
 }

@@ -44,7 +44,7 @@ function goToTextRegardingPhoto(imgSrc) {
 function moveTextCarouselLeft() {
     index--
     if (index == -1) {
-        index = 2;
+        index = textBook.length - 1;
     }
     placeHolder.innerText = textBook[index].text
     imagePlaceholder.src = "./images/" + textBook[index].src
@@ -59,7 +59,4 @@ function moveTextCarouselRight() {
     imagePlaceholder.src = "./images/" + textBook[index].src
 }
 
-
-
-['offeringsDigital-sketches.jpg', 'offeringsProjects.jpg', 'offeringsConsulting.jpg']
 

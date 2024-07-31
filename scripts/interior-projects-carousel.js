@@ -6,7 +6,7 @@ var centralImageInteriorProjects = document.querySelector('.interior-projects-ca
 function moveInteriorProjectsCarouselLeft() {
     index--
     if (index == -1) {
-        index = 2;
+        index = albumInteriorProjects.length - 1;
     }
     centralImageInteriorProjects.src = './images/' + albumInteriorProjects[index]
 }
